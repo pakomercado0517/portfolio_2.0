@@ -6,7 +6,7 @@ export default function PaybackForm({
   handleChange,
   data,
   handleSubmit,
-  handleShowTable,
+  addCell,
   handleCurrencyInput,
   handleTax,
 }) {
@@ -101,7 +101,7 @@ export default function PaybackForm({
           <Button color="dark" onClick={handleSubmit}>
             Crear PDF
           </Button>
-          <Button onClick={handleShowTable}>Mostrar Resultados</Button>
+          <Button onClick={addCell}>Agregar registro</Button>
         </div>
       </form>
     </section>

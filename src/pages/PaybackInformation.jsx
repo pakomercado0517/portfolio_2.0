@@ -5,8 +5,8 @@ import useCreatePDF from "../hooks/useCreatePDF";
 import useFormatNumber from "../hooks/useFormatNumber";
 
 function PaybackInformation() {
-  const [showTable, setShowTable] = useState(false);
   const [getTotal, setGetTotal] = useState([]);
+  const [cell, setCell] = useState([]);
   const [beforeTax, setBeforeTax] = useState(false);
   const [data, setData] = useState({});
   const createDocument = useCreatePDF();
@@ -64,9 +64,11 @@ function PaybackInformation() {
     e.target.value === "si" ? setBeforeTax(true) : setBeforeTax(false);
   };
 
-  console.log("beforeTax", beforeTax);
-
-  const handleShowTable = () => setShowTable(!showTable);
+  const addCell = (arr) => {
+    const $arr = [];
+    $arr.push(...cell, arr);
+    setCell($arr);
+  };
 
   return (
     <section className="container mx-auto">
@@ -78,13 +80,13 @@ function PaybackInformation() {
           handleChange={handleChange}
           data={data}
           handleSubmit={handleSubmit}
-          handleShowTable={handleShowTable}
+          addCell={() => addCell(getTotal)}
           handleCurrencyInput={handleCurrencyInput}
           handleTax={handleTax}
         />
       </article>
-      <article className={`${!showTable ? "hidden" : ""} mt-10`}>
-        <PaybackTable data={getTotal} />
+      <article className={`mt-10`}>
+        <PaybackTable data={cell} />
       </article>
     </section>
   );
