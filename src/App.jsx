@@ -11,7 +11,7 @@ import PaybackInformation from "./pages/PaybackInformation";
 function App() {
   return (
     <section
-      className="App min-h-[1060px] text-gray-600 font-poppins bg-cover  bg-gray-200 dark:bg-gradient-to-bl dark:from-martinique-950
+      className="App min-h-[1080px] text-gray-600 font-poppins bg-cover  bg-gray-200 dark:bg-gradient-to-bl dark:from-martinique-950
   dark:to-cerise-700  dark:bg-no-repeat dark:bg-center dark:bg-cover dark:bg-fixed bg-no-repeat bg-center bg-fixed md:pb-16 w-full lg:flex lg:justify-center"
     >
       <PortfolioNavbar />

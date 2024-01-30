@@ -11,18 +11,27 @@ export default function PortfolioNavbar() {
             <Navbar.Toggle />
           </div>
           <Navbar.Collapse className="lg:hidden">
-            <Link to="/portfolio/about" className="flex self-center">
+            <Flowbite>
+              <DarkThemeToggle className="flex self-center border-xl border-gray-700 dark:border-gray-700 ml-4" />
+            </Flowbite>
+            <Link
+              to="/portfolio/about"
+              className="flex self-center text-gray-400 p-2 rounded-md hover:bg-gray-700"
+            >
               Perfil
             </Link>
-            <Link to="/portfolio/projects" className="flex self-center">
+            <Link
+              to="/portfolio/projects"
+              className="flex self-center text-gray-400 p-2 rounded-md hover:bg-gray-700"
+            >
               Proyectos
             </Link>
-            <Link to="/portfolio/contact" className="flex self-center">
+            <Link
+              to="/portfolio/contact"
+              className="flex self-center text-gray-400 p-2 rounded-md hover:bg-gray-700"
+            >
               Contacto
             </Link>
-            <Flowbite>
-              <DarkThemeToggle className="border-xl border-gray-700 dark:border-gray-700 ml-4" />
-            </Flowbite>
           </Navbar.Collapse>
         </Navbar>
       </div>

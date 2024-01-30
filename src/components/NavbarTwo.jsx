@@ -19,7 +19,7 @@ export default function NavbarTwo() {
     <header className="relative lg:w-[526px] h-[144px] hidden lg:block p-[30px] ml-auto mb-10 rounded-[16px] bg-white dark:bg-[#111111] ">
       <div className="absolute -top-5 -right-4  rounded-full border-martinique-950">
         <Flowbite>
-          <DarkThemeToggle className="text-white bg-martinique-950 rounded-full hover:bg-martinique-600 dark:bg-[#111111] dark:text-[#A6A6A6] dark:border-[#A6A6A6]" />
+          <DarkThemeToggle className=" bg-white border shadow-md rounded-full hover:bg-martinique-950 hover:text-white dark:bg-[#111111] dark:text-[#A6A6A6] dark:border-[#A6A6A6]" />
         </Flowbite>
       </div>
       <Navbar className="bg-transparent dark:bg-transparent" fluid rounded>
