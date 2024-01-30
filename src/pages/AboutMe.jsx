@@ -27,7 +27,7 @@ export default function AboutMe() {
                   transcurso de un par de años quise retomar el aprender a
                   desarrollar Apps e inicie creando una página web para el
                   negocio con el que tengo sociedad con un primo acerca de
-                  servicios turísticos llamado &quotNáutica SerCyn&quot
+                  servicios turísticos llamado &quot;Náutica SerCyn&quot;
                   conociendo y resolviendo los desafíos que presenta entre
                   desarrollar y llevar a producción una Web (www.sercyn.com).
                   Hasta hace poco que encontré la oportunidad de entrar a Henry
