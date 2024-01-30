@@ -8,6 +8,9 @@ import {
 } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
 import { BiLogoCss3, BiLogoJavascript } from "react-icons/bi";
+import catalogosImg from "../assets/images/projects/catalogosApp.webp";
+import pokedexImg from "../assets/images/projects/pokedexApp.webp";
+import wheaterImg from "../assets/images/projects/wheaterApp.webp";
 
 export default function useAllData() {
   const animateClass =
@@ -110,7 +113,7 @@ export default function useAllData() {
       title: "Catálogos de Sissy",
       description:
         "Esta aplicación te ayuda a tener un mejor alcance de clientes, si te dedicas a vender productos por catálogo. Se crea una propia API Rest con la información y enlaces a los diferentes catálogos, y así poder mostrarlos de manera online a más personas. Además, tiene un formulario para el contacto con el vendedor para cotizaciones.",
-      img: "https://firebasestorage.googleapis.com/v0/b/servio-34472.appspot.com/o/portfolio-projects%2FCaptura%20de%20Pantalla%202022-01-25%20a%20la(s)%205.26.14%20p.m..png?alt=media&token=41332a5c-441d-4904-a307-2513c63336c5",
+      img: catalogosImg,
       href: "https://catalogos-de-sissy.surge.sh/",
     },
     {
@@ -131,18 +134,18 @@ export default function useAllData() {
     },
     {
       id: 5,
-      title: "Henry Pokemon App",
+      title: "Pako Pokedex",
       description:
         "Esta es una SPA (Single Page Aplication) hecha individualmente, para el bootcamp de #soyHenry donde se pone a prueba lo aprendido a lo largo del mismo, acerca de las herramientas que se utilizaron en la elaboración de la App. Donde consume una API Rest de pokemon, para mostrar, filtrar y/o buscar los pokemones más te gusten. También, puedes crear el pokemon que más te agrade y mostrarlo en el home de la App.",
-      img: "https://firebasestorage.googleapis.com/v0/b/servio-34472.appspot.com/o/portfolio-projects%2FCaptura%20de%20Pantalla%202022-01-25%20a%20la(s)%206.57.08%20p.m..png?alt=media&token=d8f07898-cc25-4edc-b300-0b095cfec178",
+      img: pokedexImg,
       href: "https://pako-pokedex.surge.sh/",
     },
     {
       id: 6,
-      title: "Henry Weather App",
+      title: "Pako Weather App",
       description:
         "Esta es una SPA (Single Page Aplication) hecha individualmente, para el bootcamp de #soyHenry donde se pone a prueba lo aprendido a lo largo del mismo, acerca de las herramientas que se utilizaron en la elaboración de la App. Donde consumimos una API Rest del clima, hecha con React Js y Redux para realizar búsquedas las ciudades a las que gustes ver sus propiedades climatológicas en tiempo real.",
-      img: "https://firebasestorage.googleapis.com/v0/b/servio-34472.appspot.com/o/portfolio-projects%2FCaptura%20de%20Pantalla%202022-02-06%20a%20la(s)%2010.07.50%20p.m..png?alt=media&token=3f39cbd1-6800-4ebf-b37c-9f8844cac6f4",
+      img: wheaterImg,
       href: "https://pako-weather.surge.sh/",
     },
   ];
