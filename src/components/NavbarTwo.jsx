@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Navbar, Flowbite, DarkThemeToggle } from "flowbite-react";
+import { Navbar, Flowbite, DarkThemeToggle, Dropdown } from "flowbite-react";
 import { Link } from "react-router-dom";
 import { FaRegUser } from "react-icons/fa";
 import { FiCodesandbox } from "react-icons/fi";
@@ -16,25 +16,26 @@ export default function NavbarTwo() {
   };
 
   return (
-    <header className="relative lg:w-[526px] h-[144px] hidden lg:block p-[30px] ml-auto mb-10 rounded-[16px] bg-white dark:bg-[#111111] ">
-      <div className="absolute -top-5 -right-4  rounded-full border-martinique-950">
+    <header className="relative mb-10 ml-auto hidden h-[144px] rounded-[16px] bg-white p-[30px] dark:bg-[#111111] lg:block lg:w-[526px] ">
+      <div className="absolute -right-4 -top-5  rounded-full border-martinique-950">
         <Flowbite>
-          <DarkThemeToggle className=" bg-white border shadow-md rounded-full hover:bg-martinique-950 hover:text-white dark:bg-[#111111] dark:text-[#A6A6A6] dark:border-[#A6A6A6]" />
+          <DarkThemeToggle className=" rounded-full border bg-white shadow-md hover:bg-martinique-950 hover:text-white dark:border-[#A6A6A6] dark:bg-[#111111] dark:text-[#A6A6A6]" />
         </Flowbite>
       </div>
       <Navbar className="bg-transparent dark:bg-transparent" fluid rounded>
         {/* <Navbar.Toggle /> */}
+
         <div className="mx-auto">
-          <Navbar.Collapse className="w-full h-auto">
+          <Navbar.Collapse className="h-auto w-full">
             <Link
               to="/portfolio/about"
               name="about"
               className={`${
                 nameLink === "about" ? activeSelectorClass : ""
-              } px-3 w-full h-20 rounded-[10px]  cursor-pointer  transition-all duration-300 ease-in-out    font-poppins   font-medium mx-2.5  text-xtiny text-gray-lite dark:text-[#A6A6A6]    justify-center flex flex-col items-center`}
+              } text-gray-lite mx-2.5 flex h-20  w-full  cursor-pointer flex-col items-center    justify-center   rounded-[10px] px-3  font-poppins text-xtiny font-medium    transition-all duration-300 ease-in-out dark:text-[#A6A6A6]`}
               onClick={handleChange}
             >
-              <FaRegUser className={`text-xl mb-1 mx-auto`} />
+              <FaRegUser className={`mx-auto mb-1 text-xl`} />
               Perfil
             </Link>
             {/* <Navbar.Link>
@@ -54,24 +55,35 @@ export default function NavbarTwo() {
               to="/portfolio/projects"
               className={`${
                 nameLink === "works" ? activeSelectorClass : ""
-              } w-full h-20 rounded-[10px]  cursor-pointer  transition-all duration-300 ease-in-out    font-poppins   font-medium mx-2.5  text-xtiny text-gray-lite dark:text-[#A6A6A6]    justify-center flex flex-col items-center`}
+              } text-gray-lite mx-2.5 flex  h-20  w-full cursor-pointer flex-col    items-center   justify-center rounded-[10px]  font-poppins text-xtiny font-medium    transition-all duration-300 ease-in-out dark:text-[#A6A6A6]`}
               onClick={handleChange}
               name="works"
             >
               {" "}
-              <FiCodesandbox className="text-xl mb-1 mx-auto" /> Proyectos
+              <FiCodesandbox className="mx-auto mb-1 text-xl" /> Proyectos
             </Link>
 
             <Link
               to="/portfolio/contact"
               className={`${
                 nameLink === "contact" ? activeSelectorClass : ""
-              } w-full h-20 rounded-[10px]  cursor-pointer  transition-all duration-300 ease-in-out    font-poppins   font-medium mx-2.5  text-xtiny text-gray-lite dark:text-[#A6A6A6]    justify-center flex flex-col items-center`}
+              } text-gray-lite mx-2.5 flex  h-20  w-full cursor-pointer flex-col    items-center   justify-center rounded-[10px]  font-poppins text-xtiny font-medium    transition-all duration-300 ease-in-out dark:text-[#A6A6A6]`}
               onClick={handleChange}
               name="contact"
             >
-              <RiContactsBookLine className="text-xl mb-1 mx-auto" /> Contacto
+              <RiContactsBookLine className="mx-auto mb-1 text-xl" /> Contacto
             </Link>
+            <Dropdown inline label="Herramientas">
+              <Link to="/counter">
+                <Dropdown.Item>Contador de $</Dropdown.Item>
+              </Link>
+              <Link to="/get/cost">
+                <Dropdown.Item>Información de gastos</Dropdown.Item>
+              </Link>
+              <Link to="/payback">
+                <Dropdown.Item>Registro de devolución</Dropdown.Item>
+              </Link>
+            </Dropdown>
           </Navbar.Collapse>
         </div>
       </Navbar>

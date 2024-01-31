@@ -1,4 +1,4 @@
-import { Navbar, DarkThemeToggle, Flowbite } from "flowbite-react";
+import { Navbar, DarkThemeToggle, Flowbite, Dropdown } from "flowbite-react";
 import { Link } from "react-router-dom";
 
 export default function PortfolioNavbar() {
@@ -32,6 +32,19 @@ export default function PortfolioNavbar() {
             >
               Contacto
             </Link>
+            <article className="text-gray-400 flex items-center">
+              <Dropdown className="" inline label="Herramientas">
+                <Link to="/counter">
+                  <Dropdown.Item>Contador de $</Dropdown.Item>
+                </Link>
+                <Link to="/get/cost">
+                  <Dropdown.Item>Información de gastos</Dropdown.Item>
+                </Link>
+                <Link to="/payback">
+                  <Dropdown.Item>Registro de devolución</Dropdown.Item>
+                </Link>
+              </Dropdown>
+            </article>
           </Navbar.Collapse>
         </Navbar>
       </div>
