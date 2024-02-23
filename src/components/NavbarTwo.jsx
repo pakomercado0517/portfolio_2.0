@@ -28,7 +28,7 @@ export default function NavbarTwo() {
         <div className="mx-auto">
           <Navbar.Collapse className="h-auto w-full">
             <Link
-              to="/portfolio/about"
+              to="/about"
               name="about"
               className={`${
                 nameLink === "about" ? activeSelectorClass : ""
@@ -52,7 +52,7 @@ export default function NavbarTwo() {
             </Navbar.Link> */}
 
             <Link
-              to="/portfolio/projects"
+              to="/projects"
               className={`${
                 nameLink === "works" ? activeSelectorClass : ""
               } text-gray-lite mx-2.5 flex  h-20  w-full cursor-pointer flex-col    items-center   justify-center rounded-[10px]  font-poppins text-xtiny font-medium    transition-all duration-300 ease-in-out dark:text-[#A6A6A6]`}
@@ -64,7 +64,7 @@ export default function NavbarTwo() {
             </Link>
 
             <Link
-              to="/portfolio/contact"
+              to="/contact"
               className={`${
                 nameLink === "contact" ? activeSelectorClass : ""
               } text-gray-lite mx-2.5 flex  h-20  w-full cursor-pointer flex-col    items-center   justify-center rounded-[10px]  font-poppins text-xtiny font-medium    transition-all duration-300 ease-in-out dark:text-[#A6A6A6]`}

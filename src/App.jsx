@@ -11,14 +11,12 @@ import PaybackInformation from "./pages/PaybackInformation";
 function App() {
   return (
     <section
-      className="App min-h-[1080px] text-gray-600 font-poppins bg-cover  bg-gray-200 dark:bg-gradient-to-bl dark:from-martinique-950
-  dark:to-cerise-700  dark:bg-no-repeat dark:bg-center dark:bg-cover dark:bg-fixed bg-no-repeat bg-center bg-fixed md:pb-16 w-full lg:flex lg:justify-center"
+      className="App min-h-[1080px] w-full bg-gray-200 bg-cover  bg-fixed bg-center bg-no-repeat
+  font-poppins  text-gray-600 dark:bg-gradient-to-bl dark:from-martinique-950 dark:to-cerise-700 dark:bg-cover dark:bg-fixed dark:bg-center dark:bg-no-repeat md:pb-16 lg:flex lg:justify-center"
     >
       <PortfolioNavbar />
       <Routes>
-        <Route index path="/" element={<Home />} />
-        <Route path="/portfolio" element={<Home />}>
-          <Route element={<AboutMe />} />
+        <Route path="/" element={<Home />}>
           <Route path="about" element={<AboutMe />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />

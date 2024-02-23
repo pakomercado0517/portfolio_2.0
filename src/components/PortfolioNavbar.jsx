@@ -12,27 +12,27 @@ export default function PortfolioNavbar() {
           </div>
           <Navbar.Collapse className="lg:hidden">
             <Flowbite>
-              <DarkThemeToggle className="border-xl ml-4 flex self-center border-gray-700 dark:border-gray-700" />
+              <DarkThemeToggle className="border-xl ml-4 flex self-center border-gray-700 hover:bg-gray-300 dark:border-gray-700" />
             </Flowbite>
             <Link
-              to="/portfolio/about"
-              className="flex self-center rounded-md p-2 text-gray-700 hover:bg-gray-700 dark:text-gray-400"
+              to="/about"
+              className="flex self-center rounded-md p-2 text-gray-700 hover:bg-gray-300 dark:text-gray-400"
             >
               Perfil
             </Link>
             <Link
-              to="/portfolio/projects"
-              className="flex self-center rounded-md p-2 text-gray-700 hover:bg-gray-700 dark:text-gray-400"
+              to="/projects"
+              className="flex self-center rounded-md p-2 text-gray-700 hover:bg-gray-300 dark:text-gray-400"
             >
               Proyectos
             </Link>
             <Link
-              to="/portfolio/contact"
-              className="flex self-center rounded-md p-2 text-gray-700 hover:bg-gray-700 dark:text-gray-400"
+              to="/contact"
+              className="flex self-center rounded-md p-2 text-gray-700 hover:bg-gray-300 dark:text-gray-400"
             >
               Contacto
             </Link>
-            <article className="flex items-center justify-center p-2 text-gray-700 dark:text-gray-400">
+            <article className="flex items-center justify-center p-2 text-gray-700 hover:bg-gray-300 dark:text-gray-400">
               <Dropdown className="" inline label="Herramientas">
                 <Link to="/counter">
                   <Dropdown.Item>Contador de $</Dropdown.Item>
