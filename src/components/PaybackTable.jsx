@@ -32,7 +32,7 @@ export default function PaybackTable({ data }) {
               <Table.Row key={index} className="border-gray-600">
                 <Table.Cell>{el?.empresa}</Table.Cell>
                 <Table.Cell>{el?.monto}</Table.Cell>
-                <Table.Cell> -{el?.comision} </Table.Cell>
+                <Table.Cell> {el?.comision} </Table.Cell>
                 <Table.Cell>{el?.total}</Table.Cell>
               </Table.Row>
             ))}

@@ -20,7 +20,7 @@ function PaybackInformation() {
         setGetTotal({
           empresa: data.name,
           monto: formatNumber.format(data.total),
-          comision: formatNumber.format(comision),
+          comision: `-${formatNumber.format(comision)}`,
           total: formatNumber.format(totalMount),
         });
       } else {
@@ -31,13 +31,15 @@ function PaybackInformation() {
         setGetTotal({
           empresa: data.name,
           monto: formatNumber.format(data.total),
-          comision: formatNumber.format(getComision),
+          comision: `-${formatNumber.format(getComision)}`,
           total: formatNumber.format(costTotal),
         });
       }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data, beforeTax]);
+
+  console.log("getTotal", getTotal);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -72,7 +74,7 @@ function PaybackInformation() {
 
   return (
     <section className="container mx-auto">
-      <h1 className="text-3xl my-10 text-center underline">
+      <h1 className="my-10 text-center text-3xl underline">
         Obtener monto a devolver
       </h1>
       <article>
