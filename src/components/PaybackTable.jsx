@@ -10,7 +10,7 @@ export default function PaybackTable({ data }) {
   useEffect(() => {
     const totales = data.reduce((sum, item) => {
       const totalNumber = parseFloat(
-        item.total.replace("$", "").replace(",", "")
+        item.total.replace("$", "").replace(",", ""),
       );
       return sum + totalNumber;
     }, 0);
@@ -32,7 +32,7 @@ export default function PaybackTable({ data }) {
               <Table.Row key={index} className="border-gray-600">
                 <Table.Cell>{el?.empresa}</Table.Cell>
                 <Table.Cell>{el?.monto}</Table.Cell>
-                <Table.Cell>{el?.comision}</Table.Cell>
+                <Table.Cell> -{el?.comision} </Table.Cell>
                 <Table.Cell>{el?.total}</Table.Cell>
               </Table.Row>
             ))}

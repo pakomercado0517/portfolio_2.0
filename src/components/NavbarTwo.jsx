@@ -73,17 +73,19 @@ export default function NavbarTwo() {
             >
               <RiContactsBookLine className="mx-auto mb-1 text-xl" /> Contacto
             </Link>
-            <Dropdown inline label="Herramientas">
-              <Link to="/counter">
-                <Dropdown.Item>Contador de $</Dropdown.Item>
-              </Link>
-              <Link to="/get/cost">
-                <Dropdown.Item>Información de gastos</Dropdown.Item>
-              </Link>
-              <Link to="/payback">
-                <Dropdown.Item>Registro de devolución</Dropdown.Item>
-              </Link>
-            </Dropdown>
+            <div className="flex items-center dark:text-[#A6A6A6]">
+              <Dropdown inline label="Herramientas">
+                <Link className="dark:text-[#A6A6A6]" to="/counter">
+                  <Dropdown.Item>Contador de $</Dropdown.Item>
+                </Link>
+                <Link className="dark:text-[#A6A6A6]" to="/get/cost">
+                  <Dropdown.Item>Información de gastos</Dropdown.Item>
+                </Link>
+                <Link className="dark:text-[#A6A6A6]" to="/payback">
+                  <Dropdown.Item>Registro de devolución</Dropdown.Item>
+                </Link>
+              </Dropdown>
+            </div>
           </Navbar.Collapse>
         </div>
       </Navbar>
