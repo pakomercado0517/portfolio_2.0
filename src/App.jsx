@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import MoneyCounter from "./pages/MoneyCounter";
 import GetCosts from "./pages/GetCosts";
 import PaybackInformation from "./pages/PaybackInformation";
+import MaterialControl from "./pages/MaterialControl";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/counter" element={<MoneyCounter />} />
         <Route path="/get/cost" element={<GetCosts />} />
         <Route path="/payback" element={<PaybackInformation />} />
+        <Route path="/material-control" element={<MaterialControl />} />
       </Routes>
     </section>
   );
