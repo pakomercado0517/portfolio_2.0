@@ -43,7 +43,10 @@ function MoneyCounter() {
       className="max-w-screen h-screen bg-gray-100 px-4 text-gray-600 antialiased"
       x-data="app"
     >
-      <div className="flex h-full flex-col justify-center">
+      <div className="flex h-full flex-col justify-start">
+        <h1 className="my-5 text-center text-3xl font-bold uppercase text-gray-600 underline">
+          Contador de dinero
+        </h1>
         {/* <!-- Table --> */}
         <div className="mx-auto w-full max-w-2xl rounded-sm border border-gray-200 bg-white shadow-lg">
           <header className="border-b border-gray-100 px-5 py-4">
