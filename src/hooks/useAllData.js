@@ -114,7 +114,7 @@ export default function useAllData() {
       description:
         "Esta aplicación te ayuda a tener un mejor alcance de clientes, si te dedicas a vender productos por catálogo. Se crea una propia API Rest con la información y enlaces a los diferentes catálogos, y así poder mostrarlos de manera online a más personas. Además, tiene un formulario para el contacto con el vendedor para cotizaciones.",
       img: catalogosImg,
-      href: "https://catalogos-de-sissy.surge.sh/",
+      href: "https://catalogos-de-sissy.vercel.app/",
     },
     {
       id: 3,
