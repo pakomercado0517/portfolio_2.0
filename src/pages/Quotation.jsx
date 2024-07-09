@@ -203,7 +203,12 @@ export default function Quotation() {
         </div>
         <div>
           <Label>RFC</Label>
-          <TextInput id="rfc" name="rfc" onChange={handleChange} />
+          <TextInput
+            id="rfc"
+            name="rfc"
+            onChange={handleChange}
+            value={datos.rfc.toUpperCase()}
+          />
         </div>
         <div>
           <Label>Teléfono</Label>
