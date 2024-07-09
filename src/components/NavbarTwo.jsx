@@ -84,8 +84,8 @@ export default function NavbarTwo() {
                 <Link className="dark:text-[#A6A6A6]" to="/payback">
                   <Dropdown.Item>Registro de devolución</Dropdown.Item>
                 </Link>
-                <Link className="dark:text-[#A6A6A6]" to="/material-control">
-                  <Dropdown.Item>Control de Materiales</Dropdown.Item>
+                <Link className="dark:text-[#A6A6A6]" to="/quotation">
+                  <Dropdown.Item>Generador de Cotizaciones</Dropdown.Item>
                 </Link>
               </Dropdown>
             </div>

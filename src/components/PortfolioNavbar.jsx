@@ -43,8 +43,8 @@ export default function PortfolioNavbar() {
                 <Link to="/payback">
                   <Dropdown.Item>Registro de devolución</Dropdown.Item>
                 </Link>
-                <Link to="/material-control">
-                  <Dropdown.Item>Control de Materiales</Dropdown.Item>
+                <Link to="/quotation">
+                  <Dropdown.Item>Generador de Cotizaciones</Dropdown.Item>
                 </Link>
               </Dropdown>
             </article>
