@@ -8,6 +8,7 @@ import MoneyCounter from "./pages/MoneyCounter";
 import GetCosts from "./pages/GetCosts";
 import PaybackInformation from "./pages/PaybackInformation";
 import MaterialControl from "./pages/MaterialControl";
+import Quotation from "./pages/Quotation";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/get/cost" element={<GetCosts />} />
         <Route path="/payback" element={<PaybackInformation />} />
         <Route path="/material-control" element={<MaterialControl />} />
+        <Route path="/quotation" element={<Quotation />} />
       </Routes>
     </section>
   );
