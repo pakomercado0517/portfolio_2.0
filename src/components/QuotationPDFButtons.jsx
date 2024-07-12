@@ -158,7 +158,7 @@ export default function QuotationPDFButtons({
       console.log("prev", prev);
       setPdfDataUrl(prev);
     } else {
-      doc.save(`cotización ${datos.destinatarioEmpresa}`);
+      doc.save(`cotización ${datos.destinatarioEmpresa}.pdf`);
     }
   };
 
