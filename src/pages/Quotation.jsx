@@ -21,7 +21,7 @@ export default function Quotation() {
     despedida:
       "Sin más, quedo a sus órdenes ante cualquier duda, situación o comentario de su parte agradeciendo de antemano las atenciones prestadas.",
     saludo:
-      "Buen día, se presta a continuación, la cotización de los siguientes servicios y/o materiales:",
+      "Buen día, se presenta a continuación, la cotización de los siguientes servicios y/o materiales:",
     productos: [],
     clausulas: [],
     firma: "",
