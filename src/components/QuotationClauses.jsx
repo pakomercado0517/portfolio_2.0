@@ -6,8 +6,8 @@ export default function QuotationClauses({
   agregarClausula,
 }) {
   return (
-    <section className="my-8">
-      <h2 className="text-lg font-semibold">Cláusulas</h2>
+    <section className="my-8 border-t-2 border-gray-500">
+      <h2 className="mt-5 text-lg font-semibold">Cláusulas</h2>
       {datos.clausulas.map((clausula, index) => (
         <TextInput
           key={index}

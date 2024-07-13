@@ -7,8 +7,8 @@ export default function QuotationDataBank({
   datos,
 }) {
   return (
-    <section className="my-8">
-      <div>
+    <section className="my-8 border-t-2 border-gray-500">
+      <div className="mt-5">
         <Label value="Deseas agregar datos bancarios?" />
       </div>
       <Select onChange={showDataBank} className="max-w-sm">

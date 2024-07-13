@@ -164,7 +164,7 @@ export default function QuotationPDFButtons({
 
   return (
     <>
-      <section className="my-5">
+      <section className="my-8 border-t-2 border-gray-500">
         <h2 className="my-4 text-center text-xl font-semibold">
           Cargar firma digital
         </h2>
