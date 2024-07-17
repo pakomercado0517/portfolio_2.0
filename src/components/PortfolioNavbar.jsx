@@ -32,7 +32,7 @@ export default function PortfolioNavbar() {
             >
               Contacto
             </Link>
-            <article className="flex items-center justify-center p-2 text-gray-700 hover:bg-gray-300 dark:text-gray-400">
+            {/* <article className="flex items-center justify-center p-2 text-gray-700 hover:bg-gray-300 dark:text-gray-400">
               <Dropdown className="" inline label="Herramientas">
                 <Link to="/counter">
                   <Dropdown.Item>Contador de $</Dropdown.Item>
@@ -47,7 +47,7 @@ export default function PortfolioNavbar() {
                   <Dropdown.Item>Generador de Cotizaciones</Dropdown.Item>
                 </Link>
               </Dropdown>
-            </article>
+            </article> */}
           </Navbar.Collapse>
         </Navbar>
       </div>

@@ -17,6 +17,8 @@ export default function PaybackTable({ data }) {
     setTotalSum(formatNumber.format(totales));
   }, [data, formatNumber]);
 
+  console.log("data", data);
+
   return (
     <section>
       <Table>

@@ -39,8 +39,6 @@ function PaybackInformation() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data, beforeTax]);
 
-  console.log("getTotal", getTotal);
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setData({

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Navbar, Flowbite, DarkThemeToggle, Dropdown } from "flowbite-react";
+import { Navbar, Flowbite, DarkThemeToggle } from "flowbite-react";
 import { Link } from "react-router-dom";
 import { FaRegUser } from "react-icons/fa";
 import { FiCodesandbox } from "react-icons/fi";
@@ -73,7 +73,7 @@ export default function NavbarTwo() {
             >
               <RiContactsBookLine className="mx-auto mb-1 text-xl" /> Contacto
             </Link>
-            <div className="flex items-center dark:text-[#A6A6A6]">
+            {/* <div className="flex items-center dark:text-[#A6A6A6]">
               <Dropdown inline label="Herramientas">
                 <Link className="dark:text-[#A6A6A6]" to="/counter">
                   <Dropdown.Item>Contador de $</Dropdown.Item>
@@ -88,7 +88,7 @@ export default function NavbarTwo() {
                   <Dropdown.Item>Generador de Cotizaciones</Dropdown.Item>
                 </Link>
               </Dropdown>
-            </div>
+            </div> */}
           </Navbar.Collapse>
         </div>
       </Navbar>
