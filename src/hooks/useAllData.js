@@ -11,6 +11,7 @@ import { BiLogoCss3, BiLogoJavascript } from "react-icons/bi";
 import catalogosImg from "../assets/images/projects/catalogosApp.webp";
 import pokedexImg from "../assets/images/projects/pokedexApp.webp";
 import wheaterImg from "../assets/images/projects/wheaterApp.webp";
+import contaToolsImg from "../assets/images/projects/conta-tools.webp";
 
 export default function useAllData() {
   const animateClass =
@@ -147,6 +148,14 @@ export default function useAllData() {
         "Esta es una SPA (Single Page Aplication) hecha individualmente, para el bootcamp de #soyHenry donde se pone a prueba lo aprendido a lo largo del mismo, acerca de las herramientas que se utilizaron en la elaboración de la App. Donde consumimos una API Rest del clima, hecha con React Js y Redux para realizar búsquedas las ciudades a las que gustes ver sus propiedades climatológicas en tiempo real.",
       img: wheaterImg,
       href: "https://pako-weather.surge.sh/",
+    },
+    {
+      id: 7,
+      title: "Conta-Tools",
+      description:
+        "Una página sencilla pero con mucho poder, para realizar ciertas tareas contables y administrativas, tales como crear una cotización, contar dinero, obtener un registro de devolución de dinero, obtener la relación de gastos a partir del pdf descargado del SAT, etc...",
+      img: contaToolsImg,
+      href: "https://conta-tools.vercel.app",
     },
   ];
 

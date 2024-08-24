@@ -18,7 +18,7 @@ export default function ProjectsComponent() {
   if (!projectsData) return <h1>Cargando...</h1>;
 
   return (
-    <section className="bg-white lg:rounded-2xl dark:bg-black p-6">
+    <section className="bg-white lg:rounded-2xl dark:bg-black">
       <div className="container mb-8 px-4 sm:px-5 md:px-10 lg:px-[60px]">
         <div className="py-12">
           <h2 className="after-effect after:left-72 mt-12 lg:mt-0">
@@ -26,13 +26,15 @@ export default function ProjectsComponent() {
           </h2>
         </div>
         <article className="grid grid-cols-1 gap-5 md:grid-cols-2">
-          {projectsData.map((project) => (
-            <ProjectCard
-              key={project.id}
-              data={project}
-              handleClick={() => handleOpenModal(project)}
-            />
-          ))}
+          {projectsData
+        .sort((a, b) => b.id - a.id) // Ordenar por id de mayor a menor
+        .map((project) => (
+          <ProjectCard
+            key={project.id}
+            data={project}
+            handleClick={() => handleOpenModal(project)}
+          />
+        ))}
         </article>
       </div>
       <ModalComponent
