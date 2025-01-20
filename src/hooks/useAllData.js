@@ -157,6 +157,13 @@ export default function useAllData() {
       img: contaToolsImg,
       href: "https://conta-tools.vercel.app",
     },
+    {
+      id: 8,
+      title: "DevTreeLink",
+      description: "Un LinkTree app para developers (con fines educativos)",
+      img: "https://firebasestorage.googleapis.com/v0/b/servio-34472.appspot.com/o/portfolio-projects%2FCaptura%20de%20pantalla%202025-01-20%20082827.png?alt=media&token=f42a8713-d20a-41bf-a6e5-49ab74ef4fd3https://firebasestorage.googleapis.com/v0/b/servio-34472.appspot.com/o/portfolio-projects%2FCaptura%20de%20pantalla%202025-01-20%20082827.png?alt=media&token=f42a8713-d20a-41bf-a6e5-49ab74ef4fd3",
+      href: "https://dev-tree-link-frontend.vercel.app",
+    },
   ];
 
   return { serviceData, frameworksData, projectsData };
