@@ -24,7 +24,7 @@ export default function useAllData() {
       id: 1,
       title: "Fullstack Developer",
       description:
-        "Desarrollador Fullstack enfocado con diferentes frameworks enfocados con el lenguaje de programación Javascript",
+        "💻 Desarrollador Full Stack especializado en JavaScript, creando soluciones innovadoras con los frameworks más avanzados del ecosistema. 🚀 Transformo ideas en aplicaciones funcionales con tecnologías modernas y enfoque en eficiencia, escalabilidad y rendimiento.",
       icon: FaCode,
     },
   ];
