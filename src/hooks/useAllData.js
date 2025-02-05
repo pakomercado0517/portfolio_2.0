@@ -5,9 +5,11 @@ import {
   SiSequelize,
   SiPostgresql,
   SiTailwindcss,
+  SiMongodb,
 } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
 import { BiLogoCss3, BiLogoJavascript } from "react-icons/bi";
+import { RiNextjsLine } from "react-icons/ri";
 import catalogosImg from "../assets/images/projects/catalogosApp.webp";
 import pokedexImg from "../assets/images/projects/pokedexApp.webp";
 import wheaterImg from "../assets/images/projects/wheaterApp.webp";
@@ -33,14 +35,14 @@ export default function useAllData() {
       title: "Node.js",
       icon: FaNodeJs,
       iconClass: "w-28 h-28",
-      color: `p-4 text-green-400 border border-green-400 shadow-md shadow-green-400 rounded-full ${animateClass}`,
+      color: `p-4 text-white bg-green-400 border border-green-400 shadow-md shadow-green-400 rounded-full ${animateClass}`,
     },
     {
       id: 2,
       title: "React",
       icon: FaReact,
       iconClass: "w-28 h-28",
-      color: `p-4 text-blue-600 border border-md border-blue-600 rounded-full shadow-md shadow-blue-600 ${animateClass}`,
+      color: `p-4 text-white bg-blue-600 border border-md border-blue-600 rounded-full shadow-md shadow-blue-600 ${animateClass}`,
     },
     {
       id: 3,
@@ -54,49 +56,63 @@ export default function useAllData() {
       title: "Redux",
       icon: SiRedux,
       iconClass: "w-28 h-28",
-      color: `p-4 text-purple-500 text-purple-500 border border-sm border-purple-500 rounded-full shadow-md shadow-purple-500 ${animateClass}`,
+      color: `p-4 text-white bg-purple-500 border border-sm border-purple-500 rounded-full shadow-md shadow-purple-500 ${animateClass}`,
     },
     {
       id: 5,
       title: "Sequelize",
       icon: SiSequelize,
       iconClass: "w-28 h-28",
-      color: `p-4 text-blue-400 text-blue-400 border border-sm border-blue-400 rounded-full shadow-md shadow-blue-400 ${animateClass}`,
-    },
-    {
-      id: 5,
-      title: "PostgreSQL",
-      icon: SiPostgresql,
-      iconClass: "w-28 h-28",
-      color: `p-4 text-blue-500 text-blue-500 border border-sm border-blue-500 rounded-full shadow-md shadow-blue-500 ${animateClass}`,
+      color: `p-4 text-white bg-blue-400 border border-sm border-blue-400 rounded-full shadow-md shadow-blue-400 ${animateClass}`,
     },
     {
       id: 6,
-      title: "Tailwind CSS",
-      icon: SiTailwindcss,
+      title: "PostgreSQL",
+      icon: SiPostgresql,
       iconClass: "w-28 h-28",
-      color: `p-4 text-cyan-500 text-cyan-500 border border-sm border-cyan-500 rounded-full shadow-md shadow-cyan-500 ${animateClass}`,
+      color: `p-4 text-white bg-blue-500 border border-sm border-blue-500 rounded-full shadow-md shadow-blue-500 ${animateClass}`,
     },
     {
       id: 7,
-      title: "HTML",
-      icon: AiFillHtml5,
+      title: "Tailwind CSS",
+      icon: SiTailwindcss,
       iconClass: "w-28 h-28",
-      color: `p-4 text-orange-500 text-orange-500 border border-sm border-orange-500 rounded-full shadow-md shadow-orange-500 ${animateClass}`,
+      color: `p-4 text-white bg-cyan-500 border border-sm border-cyan-500 rounded-full shadow-md shadow-cyan-500 ${animateClass}`,
     },
     {
       id: 8,
-      title: "CSS",
-      icon: BiLogoCss3,
+      title: "HTML",
+      icon: AiFillHtml5,
       iconClass: "w-28 h-28",
-      color: `p-4 text-blue-700 text-blue-700 border border-sm border-blue-700 rounded-full shadow-md shadow-blue-700 ${animateClass}`,
+      color: `p-4 text-white bg-orange-500 border border-sm border-orange-500 rounded-full shadow-md shadow-orange-500 ${animateClass}`,
     },
     {
       id: 9,
+      title: "CSS",
+      icon: BiLogoCss3,
+      iconClass: "w-28 h-28",
+      color: `p-4 text-white bg-blue-700 border border-sm border-blue-700 rounded-full shadow-md shadow-blue-700 ${animateClass}`,
+    },
+    {
+      id: 10,
       title: "Javascript",
       icon: BiLogoJavascript,
       iconClass: "w-28 h-28",
-      color: `p-4 text-yellow-300 text-yellow-300 border border-sm border-yellow-300 rounded-full shadow-md shadow-yellow-300 ${animateClass}`,
+      color: `p-4 text-white bg-yellow-300 border border-sm border-yellow-300 rounded-full shadow-md shadow-yellow-300 ${animateClass}`,
+    },
+    {
+      id: 11,
+      title: "Next",
+      icon: RiNextjsLine,
+      iconClass: "w-28 h-28",
+      color: `p-4 text-white border border-sm border-gray-900 rounded-full shadow-md shadow-gray-900 bg-black ${animateClass}`,
+    },
+    {
+      id: 12,
+      title: "Mongo DB",
+      icon: SiMongodb,
+      iconClass: "w-28 h-28",
+      color: `p-4 text-emerald-800 border border-sm border-teal-950 rounded-full shadow-md shadow-teal-950 bg-teal-950 ${animateClass}`,
     },
   ];
 

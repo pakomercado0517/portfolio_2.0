@@ -88,9 +88,11 @@ export default function AboutMe() {
             </h3>
             <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-3">
               {/* expierence information */}
-              {frameworksData.map((el) => {
-                return <ServiceCard key={el.id} item={el} />;
-              })}
+              {frameworksData
+                .sort((a, b) => b.id - a.id)
+                .map((el) => {
+                  return <ServiceCard key={el.id} item={el} />;
+                })}
             </div>
           </article>
         </div>
