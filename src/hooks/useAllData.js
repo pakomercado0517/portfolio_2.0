@@ -101,32 +101,24 @@ export default function useAllData() {
   ];
 
   const projectsData = [
+    // {
+    //   id: 1,
+    //   title: "ServIO",
+    //   description:
+    //     "Una aplicaición hecha en el bootcamp de #soyHenry. Su fin, brindar un servicio donde puedes cubrir algún tipo de necesidad recurriendo a diferentes tipos de profesionales. Al igual, puedes registrarte como profesional y poder así generar un ingreso extra. La aplicación mantiene un control de calidad en la relación cliente-profesional brindando la mejor garantía posible en ambas partes.",
+    //   img: "https://firebasestorage.googleapis.com/v0/b/servio-34472.appspot.com/o/portfolio-projects%2FCaptura%20de%20Pantalla%202022-01-25%20a%20la(s)%205.26.41%20p.m..png?alt=media&token=bcffe6c5-2aa3-4f5f-856b-9c4db6fbe89f",
+    //   href: "https://serv-io.surge.sh/",
+    // },
+    // {
+    //   id: 3,
+    //   title: "Náutica SerCyn",
+    //   description:
+    //     "Es una página web, orientada a servicios turísticos, de acuerdo a un negocio local donde se da servicios náuticos a diferentes destinos. También, tiene un método de contacto y verificación del clima, ya que al ser un servicio náutico, depende mucho del estado metereológico.",
+    //   img: "https://firebasestorage.googleapis.com/v0/b/servio-34472.appspot.com/o/portfolio-projects%2FCaptura%20de%20Pantalla%202022-01-25%20a%20la(s)%205.25.38%20p.m..png?alt=media&token=09e7a9af-88a1-48dc-8419-9de0bc84e5f9",
+    //   href: "https://www.sercyn.com/",
+    // },
     {
       id: 1,
-      title: "ServIO",
-      description:
-        "Una aplicaición hecha en el bootcamp de #soyHenry. Su fin, brindar un servicio donde puedes cubrir algún tipo de necesidad recurriendo a diferentes tipos de profesionales. Al igual, puedes registrarte como profesional y poder así generar un ingreso extra. La aplicación mantiene un control de calidad en la relación cliente-profesional brindando la mejor garantía posible en ambas partes.",
-      img: "https://firebasestorage.googleapis.com/v0/b/servio-34472.appspot.com/o/portfolio-projects%2FCaptura%20de%20Pantalla%202022-01-25%20a%20la(s)%205.26.41%20p.m..png?alt=media&token=bcffe6c5-2aa3-4f5f-856b-9c4db6fbe89f",
-      href: "https://serv-io.surge.sh/",
-    },
-    {
-      id: 2,
-      title: "Catálogos de Sissy",
-      description:
-        "Esta aplicación te ayuda a tener un mejor alcance de clientes, si te dedicas a vender productos por catálogo. Se crea una propia API Rest con la información y enlaces a los diferentes catálogos, y así poder mostrarlos de manera online a más personas. Además, tiene un formulario para el contacto con el vendedor para cotizaciones.",
-      img: catalogosImg,
-      href: "https://catalogos-de-sissy.vercel.app/",
-    },
-    {
-      id: 3,
-      title: "Náutica SerCyn",
-      description:
-        "Es una página web, orientada a servicios turísticos, de acuerdo a un negocio local donde se da servicios náuticos a diferentes destinos. También, tiene un método de contacto y verificación del clima, ya que al ser un servicio náutico, depende mucho del estado metereológico.",
-      img: "https://firebasestorage.googleapis.com/v0/b/servio-34472.appspot.com/o/portfolio-projects%2FCaptura%20de%20Pantalla%202022-01-25%20a%20la(s)%205.25.38%20p.m..png?alt=media&token=09e7a9af-88a1-48dc-8419-9de0bc84e5f9",
-      href: "https://www.sercyn.com/",
-    },
-    {
-      id: 4,
       title: "McLovit",
       description:
         "Esta es una app hecha con React Native para los diferentes dispositiovos móviles junto con el frameworf de Expo.io. Desarrollada por un equipo formado en el bootcamp de #soyHenry. Se trata de una aplicación de citas, pero esta vez, para personas que estan en el rubro de IT. Donde se aplican terminologías a fines de este rubro, por ejemplo hacer un challenge (contestar un formulario) para poder hacer match con la persona que te gusta. Tiene una suscripción de pago, en la que tienes algunos beneficios extras.",
@@ -134,7 +126,7 @@ export default function useAllData() {
       href: "https://github.com/carolnavia/Mc-Loving-ForEver",
     },
     {
-      id: 5,
+      id: 2,
       title: "Pako Pokedex",
       description:
         "Esta es una SPA (Single Page Aplication) hecha individualmente, para el bootcamp de #soyHenry donde se pone a prueba lo aprendido a lo largo del mismo, acerca de las herramientas que se utilizaron en la elaboración de la App. Donde consume una API Rest de pokemon, para mostrar, filtrar y/o buscar los pokemones más te gusten. También, puedes crear el pokemon que más te agrade y mostrarlo en el home de la App.",
@@ -142,7 +134,7 @@ export default function useAllData() {
       href: "https://pako-pokedex.surge.sh/",
     },
     {
-      id: 6,
+      id: 3,
       title: "Pako Weather App",
       description:
         "Esta es una SPA (Single Page Aplication) hecha individualmente, para el bootcamp de #soyHenry donde se pone a prueba lo aprendido a lo largo del mismo, acerca de las herramientas que se utilizaron en la elaboración de la App. Donde consumimos una API Rest del clima, hecha con React Js y Redux para realizar búsquedas las ciudades a las que gustes ver sus propiedades climatológicas en tiempo real.",
@@ -150,7 +142,15 @@ export default function useAllData() {
       href: "https://pako-weather.surge.sh/",
     },
     {
-      id: 7,
+      id: 4,
+      title: "Catálogos de Sissy",
+      description:
+        "Esta aplicación te ayuda a tener un mejor alcance de clientes, si te dedicas a vender productos por catálogo. Se crea una propia API Rest con la información y enlaces a los diferentes catálogos, y así poder mostrarlos de manera online a más personas. Además, tiene un formulario para el contacto con el vendedor para cotizaciones.",
+      img: catalogosImg,
+      href: "https://catalogos-de-sissy.vercel.app/",
+    },
+    {
+      id: 5,
       title: "Conta-Tools",
       description:
         "Una página sencilla pero con mucho poder, para realizar ciertas tareas contables y administrativas, tales como crear una cotización, contar dinero, obtener un registro de devolución de dinero, obtener la relación de gastos a partir del pdf descargado del SAT, etc...",
@@ -158,7 +158,7 @@ export default function useAllData() {
       href: "https://conta-tools.vercel.app",
     },
     {
-      id: 8,
+      id: 6,
       title: "DevTreeLink",
       description: "Un LinkTree app para developers (con fines educativos)",
       img: "https://firebasestorage.googleapis.com/v0/b/servio-34472.appspot.com/o/portfolio-projects%2FCaptura%20de%20pantalla%202025-01-20%20082827.png?alt=media&token=f42a8713-d20a-41bf-a6e5-49ab74ef4fd3https://firebasestorage.googleapis.com/v0/b/servio-34472.appspot.com/o/portfolio-projects%2FCaptura%20de%20pantalla%202025-01-20%20082827.png?alt=media&token=f42a8713-d20a-41bf-a6e5-49ab74ef4fd3",
