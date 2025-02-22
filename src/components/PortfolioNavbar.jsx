@@ -1,4 +1,4 @@
-import { Navbar, DarkThemeToggle, Flowbite, Dropdown } from "flowbite-react";
+import { Navbar, DarkThemeToggle, Flowbite } from "flowbite-react";
 import { Link } from "react-router-dom";
 
 export default function PortfolioNavbar() {
@@ -12,7 +12,7 @@ export default function PortfolioNavbar() {
           </div>
           <Navbar.Collapse className="lg:hidden">
             <Flowbite>
-              <DarkThemeToggle className="border-xl ml-4 flex self-center border-gray-700 hover:bg-gray-300 dark:border-gray-700" />
+              <DarkThemeToggle className="border-xl ml-4 flex self-center border-gray-700 hover:bg-gray-300 focus:border-gray-900 dark:border-gray-900" />
             </Flowbite>
             <Link
               to="/about"
