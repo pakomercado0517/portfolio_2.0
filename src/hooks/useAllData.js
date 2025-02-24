@@ -8,7 +8,7 @@ import {
   SiMongodb,
 } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
-import { BiLogoCss3, BiLogoJavascript } from "react-icons/bi";
+import { BiLogoCss3, BiLogoJavascript, BiLogoTypescript } from "react-icons/bi";
 import { RiNextjsLine } from "react-icons/ri";
 import catalogosImg from "../assets/images/projects/catalogosApp.webp";
 import pokedexImg from "../assets/images/projects/pokedexApp.webp";
@@ -113,6 +113,13 @@ export default function useAllData() {
       icon: SiMongodb,
       iconClass: "w-28 h-28",
       color: `p-4 text-emerald-800 border border-sm border-teal-950 rounded-full shadow-md shadow-teal-950 bg-teal-950 ${animateClass}`,
+    },
+    {
+      id: 13,
+      title: "Typescript",
+      icon: BiLogoTypescript,
+      iconClass: "w-28 h-28",
+      color: `p-4 text-white border border-sm border-blue-600 rounded-full shadow-md shadow-blue-600 bg-blue-600 ${animateClass}`,
     },
   ];
 

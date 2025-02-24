@@ -13,8 +13,8 @@ import Quotation from "./pages/Quotation";
 function App() {
   return (
     <section
-      className="App min-h-[1080px] w-full bg-gray-200 bg-cover  bg-fixed bg-center bg-no-repeat
-  font-poppins  text-gray-600 dark:bg-gradient-to-bl dark:from-martinique-950 dark:to-cerise-700 dark:bg-cover dark:bg-fixed dark:bg-center dark:bg-no-repeat md:pb-16 lg:flex lg:justify-center"
+      className="App  min-h-[1080px] bg-gray-200 bg-cover  bg-fixed bg-center bg-no-repeat
+  font-poppins  text-gray-600  dark:bg-gradient-to-bl dark:from-martinique-950 dark:to-cerise-700 dark:bg-cover dark:bg-fixed dark:bg-center dark:bg-no-repeat md:pb-16 lg:flex lg:justify-center"
     >
       <PortfolioNavbar />
 
