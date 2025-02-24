@@ -187,6 +187,14 @@ export default function useAllData() {
       img: "https://firebasestorage.googleapis.com/v0/b/servio-34472.appspot.com/o/portfolio-projects%2FCaptura%20de%20pantalla%202025-01-20%20082827.png?alt=media&token=f42a8713-d20a-41bf-a6e5-49ab74ef4fd3https://firebasestorage.googleapis.com/v0/b/servio-34472.appspot.com/o/portfolio-projects%2FCaptura%20de%20pantalla%202025-01-20%20082827.png?alt=media&token=f42a8713-d20a-41bf-a6e5-49ab74ef4fd3",
       href: "https://dev-tree-link-frontend.vercel.app",
     },
+    {
+      id: 9,
+      title: "CashTrackr",
+      description:
+        "Una solución para administrar presupuestos y gastos, además, con una implementación segura de los datos de usuarios",
+      img: "https://firebasestorage.googleapis.com/v0/b/servio-34472.appspot.com/o/portfolio-projects%2FCaptura%20de%20pantalla%202025-02-21%20230543.png?alt=media&token=7d1ee3f8-7baa-4292-aeb5-383e99dde7d2",
+      href: "https://cash-trackr-frontend.vercel.app",
+    },
   ];
 
   return { serviceData, frameworksData, projectsData };
