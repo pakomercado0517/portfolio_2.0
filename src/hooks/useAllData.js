@@ -195,6 +195,14 @@ export default function useAllData() {
       img: "https://firebasestorage.googleapis.com/v0/b/servio-34472.appspot.com/o/portfolio-projects%2FCaptura%20de%20pantalla%202025-02-21%20230543.png?alt=media&token=7d1ee3f8-7baa-4292-aeb5-383e99dde7d2",
       href: "https://cash-trackr-frontend.vercel.app",
     },
+    {
+      id: 10,
+      title: "Tienda Virtual",
+      description:
+        "Una tienda virtual hecha con NestJS, TypeORM y PostgreSQL, donde puedes comprar productos de diferentes categorías, además de tener un carrito de compras.",
+      img: "https://firebasestorage.googleapis.com/v0/b/servio-34472.appspot.com/o/portfolio-projects%2FCaptura%20de%20pantalla%202025-06-08%20a%20la(s)%2010.14.22%E2%80%AFp.m..png?alt=media&token=a9f3cdd7-cd7b-4fe4-8579-cf5a1644b17f",
+      href: "https://posnext.vercel.app/",
+    },
   ];
 
   return { serviceData, frameworksData, projectsData };
