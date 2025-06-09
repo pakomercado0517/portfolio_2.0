@@ -23,10 +23,10 @@ export default function AboutMe() {
                 <br />
                 <p className="text-gray-lite leading-7 dark:text-gray-400">
                   Hoy, soy desarrollador Full Stack con experiencia en React.js,
-                  Redux, Node.js, Express.js, PostgreSQL y Sequelize, creando
-                  aplicaciones funcionales e innovadoras. Me motiva el
-                  aprendizaje continuo, resolver problemas y trabajar en equipo
-                  para construir soluciones impactantes.
+                  Redux, Node.js, Express.js, PostgreSQL y Sequelize, entre
+                  otros, creando aplicaciones funcionales e innovadoras. Me
+                  motiva el aprendizaje continuo, resolver problemas y trabajar
+                  en equipo para construir soluciones impactantes.
                 </p>
               </div>
             </div>
@@ -42,7 +42,7 @@ export default function AboutMe() {
           </article>
           <article className="flex flex-col items-center justify-center">
             <h3 className="pb-5 text-[35px] font-medium dark:text-white ">
-              Frameworks
+              Tecnologías que utilizo.
             </h3>
             <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-3">
               {/* expierence information */}

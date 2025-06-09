@@ -6,6 +6,8 @@ import {
   SiPostgresql,
   SiTailwindcss,
   SiMongodb,
+  SiNestjs,
+  SiTypeorm,
 } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
 import { BiLogoCss3, BiLogoJavascript, BiLogoTypescript } from "react-icons/bi";
@@ -120,6 +122,20 @@ export default function useAllData() {
       icon: BiLogoTypescript,
       iconClass: "w-28 h-28",
       color: `p-4 text-white border border-sm border-blue-600 rounded-full shadow-md shadow-blue-600 bg-blue-600 ${animateClass}`,
+    },
+    {
+      id: 14,
+      title: "NestJS",
+      icon: SiNestjs,
+      iconClass: "w-28 h-28",
+      color: `p-4 text-white border border-sm border-red-600 rounded-full shadow-md shadow-red-600 bg-red-600 ${animateClass}`,
+    },
+    {
+      id: 15,
+      title: "TypeORM",
+      icon: SiTypeorm,
+      iconClass: "w-28 h-28",
+      color: `p-4 text-white border border-sm border-purple-600 rounded-full shadow-md shadow-purple-600 bg-purple-600 ${animateClass}`,
     },
   ];
 
